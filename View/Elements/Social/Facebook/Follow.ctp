@@ -1,0 +1,1 @@
+<div class="fb-follow" data-href="<?=$href?>" data-colorscheme="light" data-layout="button_count" data-show-faces="true"></div>

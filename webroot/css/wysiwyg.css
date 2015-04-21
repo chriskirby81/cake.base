@@ -1,0 +1,156 @@
+.input.wysiwyg{
+	min-height:100px;
+	position:relative;
+	border:#d2d2d2 1px solid;
+	padding:0;
+	text-align:left;
+	position:relative;
+}
+
+.input.wysiwyg header{
+	display:block;
+	position:relative;
+	min-height:40px;
+	background:#f3f3f3;
+	border-bottom:#d2d2d2 1px solid;
+}
+
+.input.wysiwyg header .control{
+	display:inline-block;
+	vertical-align:top;	
+}
+
+.input.wysiwyg header input{
+	width:auto;
+	height:40px;
+	display:inline;
+	margin:0;
+	background:#FFF;
+	color:#333;
+	border:0;
+	border-left:1px solid #333;
+}
+
+.input.wysiwyg header input:hover{
+	background:#d2d2d2;
+	color:#666;
+}
+
+.input.wysiwyg header input.bold{
+	font-weight:bold;
+	
+}
+
+.input.wysiwyg textarea{
+	
+}
+
+.input.wysiwyg aside{
+	position:relative;
+	display:block;
+	z-index:0;
+	margin:0;
+	padding:0;
+	width:100%;
+	top:0;
+	overflow:hidden;
+}
+
+.input.wysiwyg > aside > .wysiwyg-view{
+	display:block;
+	position:relative;
+	height:100%;
+	border:0;
+	
+	background:#f3f3f3;
+	z-index:100;
+	padding:0;
+	margin:0;
+	font-size:inherit;
+	font-color:inherit;
+	line-height:inherit;
+	font-family:inherit;
+	transition:margin-left 1s ease;
+	width:100%;
+}
+
+.input.wysiwyg > aside > .wysiwyg-view .content{
+border:1px dashed #d2d2d2;
+background:#FFF;
+min-height:40px;
+padding:20px;
+}
+
+.wysiwyg-view .content p{
+	border:1px dashed #EAF009;
+	min-height:1em;
+}
+
+.wysiwyg-view .content li{
+	border:1px dashed #d2d2d2;
+	min-height:1em;
+}
+
+
+.wysiwyg-view .content h1, .wysiwyg-view .content h2, .wysiwyg-view .content h3, .wysiwyg-view .content h4{
+	border:1px dashed #45A1E1;
+	min-height:1em;
+}
+
+
+.input.wysiwyg.view-source{
+	
+}
+
+.input.wysiwyg .wysiwyg-source{
+	position:absolute;
+	display:block;
+	z-index:0;
+	padding:1em;
+	top:0;
+	left:0;
+	margin:0;
+	border:0;
+	font-size:inherit;
+	font-color:inherit;
+	font-family:inherit;
+	line-height:inherit;
+	height:100%;
+	width:100%;
+	max-width:100%;
+}
+
+.wysiwyg-view .inspector{
+	position:absolute;
+	height:100%;
+	min-width:30%;
+	background:#d2d2d2;
+	top:0;
+	left:0;
+}
+
+.wysiwyg-view .inspector.hidden{
+	display:none;
+}
+
+.wysiwyg-view .inspector .attrs{
+padding:1em;	
+display:table;
+}
+
+.wysiwyg-view .inspector .attrs label, .wysiwyg-view .inspector .attrs input{
+	display:table-cell;
+}
+
+.input.wysiwyg.view-source .wysiwyg-view{
+	margin-left:100%;
+	transition:margin-left 1s ease;
+}
+
+.input.wysiwyg .wysiwyg-view .selection{
+	background:#CDFF00;
+}
+.input.wysiwyg .wysiwyg-view .caret{
+	border-right:1px solid #333;
+	line-height:inherit;
+}

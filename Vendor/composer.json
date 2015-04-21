@@ -1,0 +1,6 @@
+{
+    "require": {
+        "rackspace/php-opencloud": "dev-master",
+		 "facebook/php-sdk-v4" : "4.0.*"
+    }
+}
